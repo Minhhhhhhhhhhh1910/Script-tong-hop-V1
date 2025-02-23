@@ -56,5 +56,25 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
+AddButton(Tab1o, {
+     Name = "KIWI HUB V1",
+    Callback = function()
+	getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Versin1.0/refs/heads/main/Kiwihubv1.0"))()
+  end
+------ Tab
+     local Tab2o = MakeTab({Name = "Script Farm Chest"})
+     
 
+------- BUTTON
 
+AddButton(Tab1o, {
+     Name = "W azure",
+    Callback = function()
+	getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Kiwifarmchest/refs/heads/main/Kiwichestv1.0"))()
+  end
