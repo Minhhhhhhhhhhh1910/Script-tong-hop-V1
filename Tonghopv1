@@ -5,13 +5,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "kiwi hub",
-         Animation = "Script tổng hợp vip"
+         Animation = "Script tổng hợp(FREE)"
          },
         Key = {
         KeySystem = true,
         Title = "Get Key",
         Description = "",
-        KeyLink = "https://anotepad.com/notes/nsa4bmih",
+        KeyLink = "https://link4m.com/OJNbU8",
         Keys = {"kiwicaythuesieutoc"},
         Notifi = {
         Notifications = true,
@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Script faram chest"})
      
     
 ------- BUTTON
@@ -55,6 +56,14 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Versin1.0/refs/heads/main/Kiwihubv1.0"))()(Settings)
   end
-  })
+  })     AddButton(Tab2o, {
+     Name = "KIWI CHEST",
+    Callback = function()
+	getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Kiwifarmchest/refs/heads/main/Kiwichestv1.0"))()
+  end
+     })
 
 
