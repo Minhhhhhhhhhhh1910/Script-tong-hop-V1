@@ -5,6 +5,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "kiwi hub",
+         SubTitle = "liên kết tiểu sử|link bio: https://beacons.ai/kiwicaythuee",
          Animation = "Script tổng hợp(FREE)"
          },
         Key = {
@@ -13,13 +14,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Description = "",
         KeyLink = "https://link4m.com/OJNbU8",
         Keys = {"kiwicaythuesieutoc"},
+        Keys = {"194jtb44h48484j5jfi4884"},
+        Keys = {"20103847hti29485j5h539d"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Running the Script...",
+        CorrectKey = "Loading Script...",
        Incorrectkey = "Try Again",
        CopyKeyLink = "Copied to Clipboard"
-       Timelimitkey = "24hours"
-       Outoftime = "stop working"
+       
       }
     }
   })
@@ -28,19 +30,27 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        Image = "http://www.roblox.com/asset/?id=123809008408464",
        Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
+       Corner = false,
        Stroke = false,
        StrokeColor = Color3.fromRGB(255, 0, 0)
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Script faram chest"})
-     
+     local Tab1o = MakeTab({Name = "Support"})
+     local Tab2o = MakeTab({Name = "Script Farm"})
+     local Tab3o = MakeTab({Name = "Script Farm Chest"})
     
 ------- BUTTON
     
     AddButton(Tab1o, {
+     Name = "LINK BIO",
+    Callback = function()
+	getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+https://beacons.ai/kiwicaythuee
+  end
+     })   AddButton(Tab2o, {
      Name = "W azure",
     Callback = function()
 	getgenv().Team = "Pirates"
@@ -48,7 +58,7 @@ getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance
 getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
-     })   AddButton(Tab1o, {
+     })   AddButton(Tab2o, {
      Name = "Kiwi Hub",
     Callback = function()
 	  local Settings = {
@@ -58,7 +68,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Versin1.0/refs/heads/main/Kiwihubv1.0"))()(Settings)
   end
-  })     AddButton(Tab2o, {
+  })     AddButton(Tab3o, {
      Name = "KIWI CHEST",
     Callback = function()
 	getgenv().Team = "Pirates"
